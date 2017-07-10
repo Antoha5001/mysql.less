@@ -1,0 +1,101 @@
+mysql> source e:\OpenServer2\OpenServer\domains\mysql.less\office\first.sql
+ERROR 2006 (HY000): MySQL server has gone away
+No connection. Trying to reconnect...
+Connection id:    25
+Current database: *** NONE ***
+
++-------------------+
+| �ривет! HI!  |
++-------------------+
+| Привет! HI! |
++-------------------+
+1 row in set (0.04 sec)
+
+mysql> clear
+mysql> select user();
+ERROR 2006 (HY000): MySQL server has gone away
+No connection. Trying to reconnect...
+Connection id:    26
+Current database: *** NONE ***
+
++----------------+
+| user()         |
++----------------+
+| root@localhost |
++----------------+
+1 row in set (0.02 sec)
+
+mysql> SELECT user();
+    -> 
+    -> 
+    -> \h
+
+For information about MySQL products and services, visit:
+   http://www.mysql.com/
+For developer information, including the MySQL Reference Manual, visit:
+   http://dev.mysql.com/
+To buy MySQL Enterprise support, training, or other products, visit:
+   https://shop.mysql.com/
+
+List of all MySQL commands:
+Note that all text commands must be first on line and end with ';'
+?         (\?) Synonym for `help'.
+clear     (\c) Clear the current input statement.
+connect   (\r) Reconnect to the server. Optional arguments are db and host.
+delimiter (\d) Set statement delimiter.
+ego       (\G) Send command to mysql server, display result vertically.
+exit      (\q) Exit mysql. Same as quit.
+go        (\g) Send command to mysql server.
+help      (\h) Display this help.
+notee     (\t) Don't write into outfile.
+print     (\p) Print current command.
+prompt    (\R) Change your mysql prompt.
+quit      (\q) Quit mysql.
+rehash    (\#) Rebuild completion hash.
+source    (\.) Execute an SQL script file. Takes a file name as an argument.
+status    (\s) Get status information from the server.
+tee       (\T) Set outfile [to_outfile]. Append everything into given outfile.
+use       (\u) Use another database. Takes database name as argument.
+charset   (\C) Switch to another charset. Might be needed for processing binlog with multi-byte charsets.
+warnings  (\W) Show warnings after every statement.
+nowarning (\w) Don't show warnings after every statement.
+resetconnection(\x) Clean session context.
+
+For server side help, type 'help contents'
+
+    -> SELECT user();
+    -> \s
+ERROR 2006 (HY000): MySQL server has gone away
+No connection. Trying to reconnect...
+Connection id:    30
+Current database: *** NONE ***
+
+--------------
+
+Connection id:		30
+Current database:	
+Current user:		root@localhost
+SSL:			Not in use
+Using delimiter:	omainsmysql.les
+Server version:		5.7.11 MySQL Community Server (GPL)
+Protocol version:	10
+Connection:		localhost via TCP/IP
+Server characterset:	utf8
+Db     characterset:	utf8
+Client characterset:	cp866
+Conn.  characterset:	cp866
+TCP port:		3306
+Uptime:			6 hours 29 min 6 sec
+
+Threads: 1  Questions: 163  Slow queries: 0  Opens: 113  Flush tables: 1  Open tables: 28  Queries per second avg: 0.006
+--------------
+
+    -> mysql
+    -> SELECT database();
+    -> ^C
+mysql> SELECT database();
+    -> ^C
+mysql> ^C
+mysql> SELECT database();
+    -> ^C
+mysql> \q
