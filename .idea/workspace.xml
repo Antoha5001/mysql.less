@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="9fdeb653-4f88-4b8a-ac7b-732b7c66b43a" name="Default" comment="" />
+=======
+    <list default="true" id="8ebf7ea8-3fcb-4464-9cf9-558cfafea7b4" name="Default" comment="" />
+>>>>>>> '1'
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +15,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+=======
+      <file leaf-file-name="first.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/first.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+>>>>>>> '1'
               <folding />
             </state>
           </provider>
@@ -29,7 +41,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/index.html" />
+=======
+        <option value="$PROJECT_DIR$/first.sql" />
+>>>>>>> '1'
       </list>
     </option>
   </component>
@@ -40,6 +56,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="8" />
     <option name="y" value="30" />
@@ -49,6 +66,14 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+=======
+  <component name="ProjectFrameBounds">
+    <option name="x" value="184" />
+    <option name="y" value="101" />
+    <option name="width" value="1608" />
+    <option name="height" value="903" />
+  </component>
+>>>>>>> '1'
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -99,20 +124,36 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="9fdeb653-4f88-4b8a-ac7b-732b7c66b43a" name="Default" comment="" />
       <created>1499676689871</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499676689871</updated>
       <workItem from="1499676692574" duration="643000" />
+=======
+      <changelist id="8ebf7ea8-3fcb-4464-9cf9-558cfafea7b4" name="Default" comment="" />
+      <created>1499592217214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1499592217214</updated>
+      <workItem from="1499592218415" duration="862000" />
+>>>>>>> '1'
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="30" width="1608" height="903" extended-state="1" />
+=======
+    <option name="totallyTimeSpent" value="862000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="184" y="101" width="1608" height="903" extended-state="0" />
+>>>>>>> '1'
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -146,6 +187,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -166,6 +208,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+=======
+    <entry file="file://$PROJECT_DIR$/first.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+>>>>>>> '1'
           <folding />
         </state>
       </provider>
