@@ -205,14 +205,12 @@
       <Comment>Таблица товара</Comment>
     </table>
     <table id="72" parent="8" name="table2">
-      <Comment>Таблица товара с первичным ключом</Comment>
+      <Comment>Таблица товаров с первичным ключом</Comment>
     </table>
-    <table id="73" parent="9" name="courses">
-      <Comment>Таблица курсов с первичным ключом</Comment>
+    <table id="73" parent="8" name="table5">
+      <Comment>Таблица товаров с ключом и индексами</Comment>
     </table>
-    <table id="74" parent="9" name="lessons">
-      <Comment>Таблица уроков с первичным ключом</Comment>
-    </table>
+    <table id="74" parent="8" name="table6_child"/>
     <table id="75" parent="9" name="teachers">
       <Comment>Таблица учителя с первичным ключом</Comment>
     </table>
@@ -3084,7 +3082,7 @@
     </column>
     <column id="686" parent="72" name="name">
       <Position>2</Position>
-      <Comment>Название товара</Comment>
+      <Comment>Наименование товара</Comment>
       <DataType>varchar(50)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
@@ -3096,112 +3094,121 @@
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <key id="688" parent="72" name="PRIMARY">
+    <index id="688" parent="72" name="ixName">
+      <ColNames>name</ColNames>
+    </index>
+    <index id="689" parent="72" name="ixPrice">
+      <ColNames>price</ColNames>
+    </index>
+    <key id="690" parent="72" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="689" parent="73" name="id">
+    <column id="691" parent="73" name="id">
       <Position>1</Position>
-      <Comment>Код курса</Comment>
+      <Comment>Код товара</Comment>
       <DataType>int(10) unsigned|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="690" parent="73" name="title">
+    <column id="692" parent="73" name="code">
       <Position>2</Position>
-      <Comment>Название курса</Comment>
+      <DataType>char(4)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;AAAA&apos;</DefaultExpression>
+    </column>
+    <column id="693" parent="73" name="name">
+      <Position>3</Position>
+      <Comment>Название товара</Comment>
       <DataType>varchar(50)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
     </column>
-    <column id="691" parent="73" name="length">
-      <Position>3</Position>
-      <Comment>Продолжительность курса, часов</Comment>
-      <DataType>tinyint(4)|0</DataType>
+    <column id="694" parent="73" name="price">
+      <Position>4</Position>
+      <Comment>Цена товара</Comment>
+      <DataType>float|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <column id="692" parent="73" name="description">
-      <Position>4</Position>
-      <Comment>Описание курса</Comment>
-      <DataType>varchar(200)|0</DataType>
-      <NotNull>1</NotNull>
-      <DefaultExpression>&apos;&apos;</DefaultExpression>
-    </column>
-    <column id="693" parent="73" name="cathegory">
-      <Position>5</Position>
-      <Comment>Категория курса</Comment>
-      <DataType>varchar(50)|0</DataType>
-      <NotNull>1</NotNull>
-      <DefaultExpression>&apos;&apos;</DefaultExpression>
-    </column>
-    <key id="694" parent="73" name="PRIMARY">
+    <index id="695" parent="73" name="ixCode">
+      <ColNames>code</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="696" parent="73" name="ixName">
+      <ColNames>name</ColNames>
+    </index>
+    <index id="697" parent="73" name="ixPrice">
+      <ColNames>price</ColNames>
+    </index>
+    <key id="698" parent="73" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="695" parent="74" name="id">
+    <key id="699" parent="73" name="ixCode">
+      <ColNames>code</ColNames>
+      <UnderlyingIndexName>ixCode</UnderlyingIndexName>
+    </key>
+    <column id="700" parent="74" name="id">
       <Position>1</Position>
-      <Comment>Код курса</Comment>
+      <Comment>Код записи</Comment>
       <DataType>int(10) unsigned|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="696" parent="74" name="teacher">
+    <column id="701" parent="74" name="code">
       <Position>2</Position>
-      <DataType>int(11)|0</DataType>
+      <Comment>Код товара</Comment>
+      <DataType>char(4)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;AAAA&apos;</DefaultExpression>
     </column>
-    <column id="697" parent="74" name="course">
+    <column id="702" parent="74" name="quo">
       <Position>3</Position>
-      <DataType>int(11)|0</DataType>
-    </column>
-    <column id="698" parent="74" name="room">
-      <Position>4</Position>
-      <Comment>Номер кабинета</Comment>
-      <DataType>char(5)|0</DataType>
+      <Comment>Приход/расход товара</Comment>
+      <DataType>float|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <column id="699" parent="74" name="length">
-      <Position>5</Position>
-      <Comment>Продолжительность урока, часов</Comment>
-      <DataType>tinyint(3) unsigned|0</DataType>
-      <NotNull>1</NotNull>
-      <DefaultExpression>&apos;0&apos;</DefaultExpression>
-    </column>
-    <column id="700" parent="74" name="lesson_date">
-      <Position>6</Position>
-      <Comment>Дата урока</Comment>
-      <DataType>datetime|0</DataType>
-    </column>
-    <key id="701" parent="74" name="PRIMARY">
+    <index id="703" parent="74" name="ixCode">
+      <ColNames>code</ColNames>
+    </index>
+    <key id="704" parent="74" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="702" parent="75" name="id">
+    <foreign-key id="705" parent="74" name="fkTable5Code">
+      <ColNames>code</ColNames>
+      <RefSchemaName>module3</RefSchemaName>
+      <RefTableName>table5</RefTableName>
+      <RefColNames>code</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="706" parent="75" name="id">
       <Position>1</Position>
       <Comment>Код учителя</Comment>
       <DataType>int(10) unsigned|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="703" parent="75" name="name">
+    <column id="707" parent="75" name="name">
       <Position>2</Position>
       <Comment>Имя учителя</Comment>
       <DataType>varchar(50)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
     </column>
-    <column id="704" parent="75" name="addr">
+    <column id="708" parent="75" name="addr">
       <Position>3</Position>
       <Comment>Адрес учителя</Comment>
       <DataType>varchar(200)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
     </column>
-    <key id="705" parent="75" name="PRIMARY">
+    <key id="709" parent="75" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
