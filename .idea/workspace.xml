@@ -4,6 +4,7 @@
     <list default="true" id="9fdeb653-4f88-4b8a-ac7b-732b7c66b43a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/6415b49c-7a6f-4383-b8bd-b85dcf806bec.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/6415b49c-7a6f-4383-b8bd-b85dcf806bec.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/office/create_tables for modules 3.sql" afterPath="$PROJECT_DIR$/office/create_tables for modules 3.sql" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,7 +36,7 @@
           <file leaf-file-name="запросы.sql" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/office/запросы.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
+                <state relative-caret-position="136">
                   <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
                   <folding />
                 </state>
@@ -55,8 +56,8 @@
           <file leaf-file-name="create_tables for modules 3.sql" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/office/create_tables for modules 3.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="15" column="47" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="15" selection-end-column="47" />
+                <state relative-caret-position="85">
+                  <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
@@ -66,9 +67,9 @@
             <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6415b49c-7a6f-4383-b8bd-b85dcf806bec/console.sql">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="170">
-                  <caret line="10" column="124" lean-forward="false" selection-start-line="10" selection-start-column="124" selection-end-line="10" selection-end-column="124" />
+                  <caret line="14" column="124" lean-forward="false" selection-start-line="14" selection-start-column="124" selection-end-line="14" selection-end-column="124" />
                   <folding>
-                    <marker date="1500981367334" expanded="true" signature="155:259" ph="UPDATE db_co... " />
+                    <marker date="1501059028680" expanded="true" signature="234:338" ph="UPDATE db_co... " />
                   </folding>
                 </state>
               </provider>
@@ -77,13 +78,15 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
             <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6415b49c-7a6f-4383-b8bd-b85dcf806bec/console.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="98" lean-forward="false" selection-start-line="6" selection-start-column="98" selection-end-line="6" selection-end-column="98" />
-                  <folding />
+                <state relative-caret-position="85">
+                  <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+                  <folding>
+                    <marker date="1501059028680" expanded="true" signature="234:338" ph="UPDATE db_co... " />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -106,9 +109,9 @@
         <option value="$PROJECT_DIR$/office/create-index.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1da8a7cc-0e58-4497-96c4-19269a063718/console.sql" />
         <option value="$PROJECT_DIR$/office/запросы.sql" />
-        <option value="$PROJECT_DIR$/office/create_tables for modules 3.sql" />
         <option value="$PROJECT_DIR$/office/data.txt" />
         <option value="$PROJECT_DIR$/office/module-4/select-1.sql" />
+        <option value="$PROJECT_DIR$/office/create_tables for modules 3.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6415b49c-7a6f-4383-b8bd-b85dcf806bec/console.sql" />
       </list>
     </option>
@@ -121,8 +124,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="70" />
-    <option name="y" value="39" />
+    <option name="x" value="43" />
+    <option name="y" value="50" />
     <option name="width" value="1622" />
     <option name="height" value="903" />
   </component>
@@ -163,6 +166,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,7 +183,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -233,6 +236,7 @@
       <workItem from="1500719891039" duration="1198000" />
       <workItem from="1500781920384" duration="9122000" />
       <workItem from="1500980582012" duration="1336000" />
+      <workItem from="1501040893400" duration="4727000" />
     </task>
     <task id="LOCAL-00001" summary="data.txt">
       <created>1500783591687</created>
@@ -245,23 +249,23 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56081000" />
+    <option name="totallyTimeSpent" value="60808000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="39" width="1622" height="903" extended-state="0" />
+    <frame x="43" y="50" width="1622" height="903" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29962075" sideWeight="0.48871768" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29962075" sideWeight="0.48871768" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17434621" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2997312" sideWeight="0.5112823" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37982565" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494817" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -553,7 +557,7 @@
     <entry file="file://$PROJECT_DIR$/office/data.txt" />
     <entry file="file://$PROJECT_DIR$/office/запросы.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
@@ -570,17 +574,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/office/create_tables for modules 3.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="47" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="15" selection-end-column="47" />
+        <state relative-caret-position="85">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6415b49c-7a6f-4383-b8bd-b85dcf806bec/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="98" lean-forward="false" selection-start-line="6" selection-start-column="98" selection-end-line="6" selection-end-column="98" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <marker date="1501059028680" expanded="true" signature="234:338" ph="UPDATE db_co... " />
+          </folding>
         </state>
       </provider>
     </entry>

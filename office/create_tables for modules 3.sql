@@ -12,6 +12,7 @@ CREATE TABLE IF NOT EXISTS teachers_ref
   id INT UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Код учителя',
   name VARCHAR(50) NOT NULL DEFAULT '' COMMENT 'Имя учителя',
   addr VARCHAR(200) NOT NULL DEFAULT '' COMMENT 'Адрес учителя',
+  phone VARCHAR(15) NOT NULL DEFAULT '' COMMENT 'Телефон учителя',
   CONSTRAINT pkId PRIMARY KEY (id)
 ) COMMENT 'Таблица учителя с первичным ключом';
 
@@ -23,7 +24,7 @@ CREATE TABLE IF NOT EXISTS courses_ref
   length TINYINT NOT NULL DEFAULT 0 COMMENT 'Продолжительность курса, часов',
   description VARCHAR(200) NOT NULL DEFAULT '' COMMENT 'Описание курса',
   cathegory VARCHAR(50) NOT NULL DEFAULT '' COMMENT 'Категория курса',
-  previous INT DEFAULT 0 COMMENT 'Требования к курсу',
+  previous INT UNSIGNED COMMENT 'Требования к курсу',
   CONSTRAINT pkId PRIMARY KEY (id),
   INDEX ixPrevious (previous),
   CONSTRAINT fkPrevious FOREIGN KEY (previous) REFERENCES (id)
