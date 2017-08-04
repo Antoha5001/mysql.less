@@ -1,13 +1,13 @@
--- Создание базы данных
+-- РЎРѕР·РґР°РЅРёРµ Р±Р°Р·С‹ РґР°РЅРЅС‹С…
 USE module4;
 
--- Объединение через WHERE
+-- РћР±СЉРµРґРёРЅРµРЅРёРµ С‡РµСЂРµР· WHERE
 SELECT teachers.name, schedule.*
 	FROM schedule, teachers, courses
 	WHERE schedule.idschedule = 1
 	  AND teachers.idteachers = schedule.idschedule;
 	  
--- Объединение через WHERE смотрим кто вел первый курс и чему он был посвящен
+-- РћР±СЉРµРґРёРЅРµРЅРёРµ С‡РµСЂРµР· WHERE СЃРјРѕС‚СЂРёРј РєС‚Рѕ РІРµР» РїРµСЂРІС‹Р№ РєСѓСЂСЃ Рё С‡РµРјСѓ РѕРЅ Р±С‹Р» РїРѕСЃРІСЏС‰РµРЅ
 SELECT teachers.name, courses.title
 	FROM schedule, teachers, courses
 	WHERE schedule.idschedule = 1
@@ -16,30 +16,30 @@ SELECT teachers.name, courses.title
 	  
 
 
--- Полное объединение
+-- РџРѕР»РЅРѕРµ РѕР±СЉРµРґРёРЅРµРЅРёРµ
 SELECT schedule.*, teachers.*
 	FROM schedule, teachers;
 	  
--- Кто из преподавателей читал курсы 
+-- РљС‚Рѕ РёР· РїСЂРµРїРѕРґР°РІР°С‚РµР»РµР№ С‡РёС‚Р°Р» РєСѓСЂСЃС‹ 
 SELECT teachers.idteachers,teachers.name, teachers_idteachers
 	FROM teachers 
 		INNER JOIN schedule ON teachers.idteachers = teachers_idteachers;
 
 
--- Кто из преподавателей читал курсы в комплексе Таганский
+-- РљС‚Рѕ РёР· РїСЂРµРїРѕРґР°РІР°С‚РµР»РµР№ С‡РёС‚Р°Р» РєСѓСЂСЃС‹ РІ РєРѕРјРїР»РµРєСЃРµ РўР°РіР°РЅСЃРєРёР№
 SELECT DISTINCT 
-		teachers.name 	-- Имя преподаавтеля
+		teachers.name 	-- РРјСЏ РїСЂРµРїРѕРґР°Р°РІС‚РµР»СЏ
 	FROM teachers
 		INNER JOIN schedule ON teachers.idteachers = teachers_idteachers
 		INNER JOIN department ON department_iddepartment = department.iddepartment
-	WHERE department.name LIKE '%Таганский%'
+	WHERE department.name LIKE '%РўР°РіР°РЅСЃРєРёР№%'
 	ORDER BY teachers.name;
 	
 	
--- Проверяем кто где читал курсы
+-- РџСЂРѕРІРµСЂСЏРµРј РєС‚Рѕ РіРґРµ С‡РёС‚Р°Р» РєСѓСЂСЃС‹
 SELECT DISTINCT 
-		teachers.name, 	-- Имя преподавателя
-		department.name -- Название комплекса
+		teachers.name, 	-- РРјСЏ РїСЂРµРїРѕРґР°РІР°С‚РµР»СЏ
+		department.name -- РќР°Р·РІР°РЅРёРµ РєРѕРјРїР»РµРєСЃР°
 	FROM teachers
 		INNER JOIN schedule ON teachers.idteachers = teachers_idteachers
 		INNER JOIN department ON department_iddepartment = department.iddepartment
@@ -47,19 +47,19 @@ SELECT DISTINCT
 	
 	
 	   
--- Какие курсы читает преподаватель ИВАНОВ
+-- РљР°РєРёРµ РєСѓСЂСЃС‹ С‡РёС‚Р°РµС‚ РїСЂРµРїРѕРґР°РІР°С‚РµР»СЊ РР’РђРќРћР’
 SELECT DISTINCT courses.title
 	FROM courses
 		INNER JOIN schedule ON courses.idcourses =  courses_idcourses
 		INNER JOIN teachers ON teachers.idteachers = teachers_idteachers
-	WHERE teachers.name = 'Иванов Иван Иванович';
+	WHERE teachers.name = 'РРІР°РЅРѕРІ РРІР°РЅ РРІР°РЅРѕРІРёС‡';
 	
 	
--- Еще один препод
-INSERT INTO teachers (name) VALUES ('Новый препод');	
+-- Р•С‰Рµ РѕРґРёРЅ РїСЂРµРїРѕРґ
+INSERT INTO teachers (name) VALUES ('РќРѕРІС‹Р№ РїСЂРµРїРѕРґ');	
 
--- Когда последний раз преподаватели вели занятия
--- Если бы была дата!
+-- РљРѕРіРґР° РїРѕСЃР»РµРґРЅРёР№ СЂР°Р· РїСЂРµРїРѕРґР°РІР°С‚РµР»Рё РІРµР»Рё Р·Р°РЅСЏС‚РёСЏ
+-- Р•СЃР»Рё Р±С‹ Р±С‹Р»Р° РґР°С‚Р°!
 SELECT teachers.name, MAX(schedule.lesson_date)
 	FROM teachers
 		INNER JOIN schedule ON teachers.idteachers = teachers_idteachers
@@ -68,7 +68,7 @@ SELECT teachers.name, MAX(schedule.lesson_date)
 	
 	
 	
--- Полный список преподавателей и даты, когда они вели занятия прошлый раз
+-- РџРѕР»РЅС‹Р№ СЃРїРёСЃРѕРє РїСЂРµРїРѕРґР°РІР°С‚РµР»РµР№ Рё РґР°С‚С‹, РєРѕРіРґР° РѕРЅРё РІРµР»Рё Р·Р°РЅСЏС‚РёСЏ РїСЂРѕС€Р»С‹Р№ СЂР°Р·
 SELECT teachers.name, MAX(lessons.lesson_date)
 	FROM teachers
 		LEFT JOIN lessons ON teachers.id = lessons.teacher
