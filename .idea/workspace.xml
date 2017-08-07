@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fdeb653-4f88-4b8a-ac7b-732b7c66b43a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/c0801487-e437-42a3-b23c-dcd4953ea377/_src_/schema/world.zip" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c0801487-e437-42a3-b23c-dcd4953ea377/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/c0801487-e437-42a3-b23c-dcd4953ea377/_metadata_/metadata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c0801487-e437-42a3-b23c-dcd4953ea377/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/c0801487-e437-42a3-b23c-dcd4953ea377/_metadata_/metadata.keystream" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c0801487-e437-42a3-b23c-dcd4953ea377/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/c0801487-e437-42a3-b23c-dcd4953ea377/_metadata_/metadata.keystream.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c0801487-e437-42a3-b23c-dcd4953ea377/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/c0801487-e437-42a3-b23c-dcd4953ea377/_metadata_/metadata.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c0801487-e437-42a3-b23c-dcd4953ea377/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/c0801487-e437-42a3-b23c-dcd4953ea377/_metadata_/metadata.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c0801487-e437-42a3-b23c-dcd4953ea377/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/c0801487-e437-42a3-b23c-dcd4953ea377/_metadata_/metadata_i" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c0801487-e437-42a3-b23c-dcd4953ea377.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/c0801487-e437-42a3-b23c-dcd4953ea377.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,14 +37,24 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.47794995">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="select-join.sql" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/office/module-4/select-join.sql">
+          <file leaf-file-name="view.sql" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/office/module-5/view.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+                <state relative-caret-position="680">
+                  <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="procedure.sql" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/office/module-6/procedure.sql">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="374">
+                  <caret line="40" column="11" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="40" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
@@ -49,8 +67,8 @@
           <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
             <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c0801487-e437-42a3-b23c-dcd4953ea377/console.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+                <state relative-caret-position="493">
+                  <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -77,8 +95,9 @@
         <option value="$PROJECT_DIR$/office/create_tables for modules 3.sql" />
         <option value="$PROJECT_DIR$/office/запросы.sql" />
         <option value="$PROJECT_DIR$/office/module-4/select-1.sql" />
-        <option value="$PROJECT_DIR$/office/module-4/select-join.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6415b49c-7a6f-4383-b8bd-b85dcf806bec/console.sql" />
+        <option value="$PROJECT_DIR$/office/module-4/select-join.sql" />
+        <option value="$PROJECT_DIR$/office/module-6/procedure.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c0801487-e437-42a3-b23c-dcd4953ea377/console.sql" />
       </list>
     </option>
@@ -91,9 +110,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-36" />
-    <option name="y" value="87" />
-    <option name="width" value="1199" />
+    <option name="x" value="-1240" />
+    <option name="y" value="111" />
+    <option name="width" value="1213" />
     <option name="height" value="887" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -133,6 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,14 +169,19 @@
               <item name="mysql.less" type="b2602c69:ProjectViewProjectNode" />
               <item name="mysql.less" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="office" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="module-4" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module-5" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mysql.less" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysql.less" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="office" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module-6" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,6 +247,8 @@
       <workItem from="1501820437458" duration="3169000" />
       <workItem from="1501928093772" duration="4764000" />
       <workItem from="1502007969992" duration="6242000" />
+      <workItem from="1502080201350" duration="7226000" />
+      <workItem from="1502105171067" duration="245000" />
     </task>
     <task id="LOCAL-00001" summary="data.txt">
       <created>1500783591687</created>
@@ -234,16 +261,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90374000" />
+    <option name="totallyTimeSpent" value="97845000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-36" y="87" width="1199" height="887" extended-state="0" />
+    <frame x="-1240" y="111" width="1213" height="887" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4274301" sideWeight="0.47733516" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27579737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31914893" sideWeight="0.47733516" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27666956" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3767383" sideWeight="0.52266484" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25265792" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25190195" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494817" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -276,14 +304,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/office/create_tables for modules 3.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6415b49c-7a6f-4383-b8bd-b85dcf806bec/console.sql" />
     <entry file="file://$PROJECT_DIR$/office/запросы.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -553,18 +573,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c0801487-e437-42a3-b23c-dcd4953ea377/console.sql">
+    <entry file="file://$PROJECT_DIR$/office/module-4/select-join.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+        <state relative-caret-position="238">
+          <caret line="33" column="78" lean-forward="false" selection-start-line="33" selection-start-column="78" selection-end-line="33" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/office/module-5/view.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/office/module-4/select-join.sql">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c0801487-e437-42a3-b23c-dcd4953ea377/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="493">
+          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/office/module-6/procedure.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="40" column="11" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="40" selection-end-column="11" />
           <folding />
         </state>
       </provider>
