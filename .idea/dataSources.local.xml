@@ -19,7 +19,7 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <introspection-schemas>*:db_course,db_course2,information_schema,module4_db,module5,module6,world</introspection-schemas>
+      <introspection-schemas>*:db_course,db_course2,information_schema,module4_db,module5,module6,module7,world,world2</introspection-schemas>
     </data-source>
   </component>
 </project>

@@ -1,14 +1,14 @@
---отдельные переменные кеша
+--РѕС‚РґРµР»СЊРЅС‹Рµ РїРµСЂРµРјРµРЅРЅС‹Рµ РєРµС€Р°
 SHOW VARIABLES LIKE 'have_query_cache';
 SHOW VARIABLES LIKE 'query_cache_limit';
 SHOW VARIABLES LIKE 'query_cache_min_res_unit';
 
---все переменные кеша
+--РІСЃРµ РїРµСЂРµРјРµРЅРЅС‹Рµ РєРµС€Р°
 SHOW VARIABLES LIKE '%query_cache%';
 
 
 SET SESSION query_cache_type = OFF;
 SET GLOBAL query_cache_limit = 0;
 
---сброс кеша
+--СЃР±СЂРѕСЃ РєРµС€Р°
 RESET QUERY CACHE
